@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Road-construction</title>
+    <link rel="stylesheet" href="education.css">
+    <script src="Road.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo"><img src="DYNO (1).png"></div>
+            <div class="Heading">
+                <h1>Dyno Rural development</h1>
+            </div>
+            <div class="element">
+                <ul>
+                    <li class="menu1"><a href="#home">Home</a></li>
+                    <li class="menu1"><a href="#about">About</a></liX>
+                    <li class="menu1"><a href="#services">Services</a></li>
+                    <li class="menu1"><a href="#help">Help</a></li>
+                    <li class="menu1"><a href="#contact">Contact</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="prov">
+            <h4>Paving the way to the future ....</h4>
+        </div>
+    </header>
+
+    <section class="sect1" id="home">
+
+        <div class="w3-content w3-section" style="max-width:1500px">
+
+          <div class="image2">
+            <img class="mySlides w3-animate-fading" src="pexels-yogendra-singh-3231359.jpg">
+         </div>
+         <div class="image2">
+            <img class="mySlides w3-animate-fading" src="pexels-ksenia-chernaya-7695263.jpg">
+         </div>
+         <div class="image2">
+            <img class="mySlides w3-animate-fading" src="pexels-rdne-stock-project-6936137.jpg">
+         </div>
+         <div class="image2">
+            <img class="mySlides w3-animate-fading" src="wallpaperflare.com_wallpaper.jpg">
+         </div>
+            <!-- <img class="mySlides w3-anima te-fading" src="img_rr_04.jpg" style="width:100%"> -->
+          </div>
+
+    </section>
+
+    <section>
+        <div>
+            <h1><strong>1. Impleamentation for improve education system</strong></h1>
+            <p> 
+                <strong>2. Community Involvement:</strong> Engage parents, teachers, local leaders, and community members to understand their needs and aspirations for education.<br><br>
+                
+                <strong>3. Infrastructure Development:</strong> Improve or build schools, libraries, and study spaces to provide conducive environments for learning.<br><br>
+                
+                <strong>4. Access to Resources:</strong> Ensure availability of textbooks, educational materials, and technology like computers or tablets.<br><br>
+                
+                <strong>5. Qualified Teachers:</strong> Recruit and train teachers who are passionate and qualified to teach, possibly through partnerships with nearby educational institutions.<br><br>
+                
+                <strong>6. Interactive Teaching Methods:</strong> Encourage interactive and participatory teaching methods to make learning engaging and effective.<br><br>
+                
+                <strong>7. Supplementary Programs:</strong> Offer extra-curricular activities, tutoring sessions, and mentorship programs to support students' holistic development.<br><br>
+                
+                <strong>8. Community Learning Centers:</strong> Establish community learning centers where people of all ages can access educational resources and engage in lifelong learning.<br><br>
+                
+                <strong>9. Parental Involvement:</strong> Encourage parents to be actively involved in their children's education through parent-teacher associations and workshops.<br><br>
+                
+                <strong>10. Utilize Local Resources:</strong> Integrate local culture, traditions, and resources into the curriculum to make learning relevant and meaningful for students.<br></p>
+        </div>
+    </section>
+
+        <div class="complain">
+            <div class="apply">
+                <h2>Apply For school Admission Near your Region </h2>
+            </div>
+               <div id="services" class="form">
+
+                <form id="registrationForm">
+                    <label for="fullName">Full Name:</label>
+                    <input type="text" id="fullName" name="fullName" required>
+        
+                    <label for="Age">Age:</label>
+                    <input type="number" id="Age" name="Age" required>
+        
+                    <label for="contactNumber">Contact Number:</label>
+                    <input type="tel" id="contactNumber" name="contactNumber" required>
+        
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="Address">Address:</label>
+                    <input type="Address" id="address" name="Address" required>
+
+                    <label for="school">school:</label>
+                    <input type="school" id="school" name="school" required>
+
+                    <label for="Address">District:</label>
+                    <input type="Address" id="address" name="Address" required>
+
+                    <label for="Address">State:</label>
+                    <input type="Address" id="address" name="Address" required>
+
+                    <label for="Complain">Complain:</label>
+                    <input type="text" id="complain" name="Complain" required>
+
+                </div>
+                    <button type="button" onclick="submitForm()" class="button2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="contact">
+        <h222 class="contact" id="help">Contact</h222><br>
+
+        <div class="help">
+          <div class="location"><img class="img111" src="placeholder.png" alt="Location"></div>
+          <div class="location1"><p>Indore Institute Of Science And Technology,College</p>
+          <p>Rau,Indore</p></div>
+       </div>
+  
+        <div class="help2">
+          <div><img class="img112" src="viber.png" alt="Contact"></div>
+            <div class="phone1"><p>9522303045</p></div>
+        </div>
+  
+        <div class="help1">
+            <div class="gmail"><img class="img112" src="gmail.png" alt="Gmail"></div>
+            <div class="gmail"><p>Dynoorg@gmail.com</p></div>
+        </div>
+
+            <div class="container1">
+                <div class="footer-content">
+                    <p>© 2024 Dyno Rural Development. All rights reserved.</p>
+                </div>
+        </div>
+    </footer>
+    
+       
+    <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 4000);    
+        }
+        </script>
+        
+    
+</body>
+</html>

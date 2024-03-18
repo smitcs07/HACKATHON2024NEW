@@ -1,0 +1,156 @@
+
+@media only screen and (max-width: 100px) {
+    body {
+      background-color: rgb(172, 172, 172);
+    }
+    .container{
+        display: flex;
+        
+    }
+    .element,ul, li,a{
+        display: flex;
+        color:blue;
+        text-decoration: none;
+    }
+    
+    
+    .element{
+        display: flex;
+        margin:0px 0px 0px 600px;
+    
+    }
+    
+    .Heading{
+        margin: -10px 0px 0px 50px ;
+    }
+    
+    ul,li{
+        
+        gap:20px;
+    }
+    
+    .image1{
+        display: flex;
+        margin:0px 0px 0px 100px
+    }
+    
+    .logo{
+        margin:10px 0px 0px 0px;
+    }
+    
+    .element a:hover{
+        color:rgb(85, 104, 141);
+    }
+    
+    .process{
+        width:500px;
+        height: 400px;
+    }
+    
+    .about{
+        background: #ded8d8;
+        margin:-18px 0px 0px 5px
+    }
+    
+    .Methods{
+        display: flex;
+        background: #ffffff;
+        margin: 0px 0px 0px 300px;
+        color:black;
+    }
+    .problem1 h2{
+        display: flex;
+        margin: 10px 0px 0px 605px;
+        font-size: 40px;
+        background:#707070;
+    }
+    
+    .problem{
+        background:#707070;
+    }
+    .problem1 strong{
+        margin:10px 0px 5px 20px;
+        font-size: 30px;
+    }
+    
+    .problem1 strong,p{
+        margin:10px 0px 5px 20px;
+        
+    }
+  }
+
+.container{
+    display: flex;
+    
+}
+.element,ul, li,a{
+    display: flex;
+    color:blue;
+    text-decoration: none;
+}
+
+
+.element{
+    display: flex;
+    margin:0px 0px 0px 600px;
+
+}
+
+.Heading{
+    margin: -10px 0px 0px 50px ;
+}
+
+ul,li{
+    
+    gap:20px;
+}
+
+.image1{
+    display: flex;
+    margin:0px 0px 0px 100px
+}
+
+.logo{
+    margin:10px 0px 0px 0px;
+}
+
+.element a:hover{
+    color:rgb(85, 104, 141);
+}
+
+.process{
+    width:500px;
+    height: 400px;
+}
+
+.about{
+    background: #ded8d8;
+    margin:-18px 0px 0px 5px
+}
+
+.Methods{
+    display: flex;
+    background: #ffffff;
+    margin: 0px 0px 0px 300px;
+    color:black;
+}
+.problem1 h2{
+    display: flex;
+    margin: 10px 0px 0px 605px;
+    font-size: 40px;
+    background:#707070;
+}
+
+.problem{
+    background:#707070;
+}
+.problem1 strong{
+    margin:10px 0px 5px 20px;
+    font-size: 30px;
+}
+
+.problem1 strong,p{
+    margin:10px 0px 5px 20px;
+    
+}
+ 

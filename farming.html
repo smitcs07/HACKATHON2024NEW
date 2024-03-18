@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farming</title>
+    <link rel="stylesheet" href="farming.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo"><img src="logo.png"></div>
+            <div class="Heading">
+                <h1>Dyno-Rural-development</h1>
+            </div>
+            <div class="element">
+                <ul>
+                    <li class="menu1"><a href="#home">Home</a></li>
+                    <li class="menu1"><a href="#about">About</a></liX>
+                    <li class="menu1"><a href="#services">Services</a></li>
+                    <li class="menu1"><a href="#help">Help</a></li>
+                    <li class="menu1"><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section class="sect1" id="home">
+
+        <div class="w3-content w3-section" style="max-width:1500px">
+
+          <div class="image1">
+            <img class="mySlides w3-animate-fading" src="AI.avif" style="width:1300px;height: 600px;">
+         </div>
+         <div class="image1">
+            <img class="mySlides w3-animate-fading" src="1398313.jpg" style="width:1300px;height:600px;">
+         </div>
+         <div class="image1">
+            <img class="mySlides w3-animate-fading" src="3079568.jpg" style="width:1300px;height:600px;">
+         </div>
+            <!-- <img class="mySlides w3-anima te-fading" src="img_rr_04.jpg" style="width:100%"> -->
+          </div>
+    </section>
+    <section class="methods">
+        <div class="about">
+            <h1>ORGANIC  FARMING</h1>
+            <p>Organic farming is a holistic approach to agriculture that focuses on maintaining and improving the health of the soil, plants, animals, and ecosystem as a whole. It is based on a set of principles and practices that promote sustainable farming methods and minimize the use of external inputs such as synthetic pesticides and fertilizers. Here are some key aspects of organic farming in detail:</p>
+            <p><strong>1.	Soil Health:</strong> Organic farming emphasizes the importance of soil health as the foundation of a healthy farm ecosystem. Practices such as crop rotation, cover cropping, and the use of compost and organic matter help improve soil structure, fertility, and microbial activity.<br>
+                <strong>2.	Crop Management:</strong> Organic farmers use natural methods to manage pests, weeds, and diseases. This includes the use of crop rotation, where different crops are planted in a field each season to break pest cycles and improve soil health. They also use biological control agents, such as beneficial insects, and physical methods like hand weeding to control weeds.<br>
+                <strong>3.	Fertilization:</strong> Organic farmers use natural fertilizers, such as compost, manure, and organic amendments, to provide nutrients to crops. These materials release nutrients slowly, improving soil fertility and reducing the risk of nutrient runoff and water pollution.<br>
+                <strong>4.	Genetic Modification:</strong> Organic farming prohibits the use of genetically modified organisms (GMOs). Instead, organic farmers rely on traditional breeding methods to develop crop varieties that are well-adapted to their environment and resistant to pests and diseases.<br>
+                <strong>5.	Genetic Modification:</strong> Organic farming prohibits the use of genetically modified organisms (GMOs). Instead, organic farmers rely on traditional breeding methods to develop crop varieties that are well-adapted to their environment and resistant to pests and diseases.<br>
+                </p><br>
+            <img src="process.jpg" alt="Process" class="Methods">
+        </div>
+    </section>
+
+    <section class="problem">
+            <div class="problem1">
+                <h2>Problem face</h2>
+                <strong>1. Labor Shortages: </strong>
+                <p>Finding and retaining skilled labor for farming operations, especially during peak seasons, can be difficult, leading to delays in planting, harvesting, and other essential tasks.</p>
+                <strong>2. Land Access and Tenure: </strong>
+                <p>Land tenure issues, including insecure land rights, land fragmentation, and land grabbing, can hinder farmers' ability to invest in long-term improvements and limit their access to agricultural land.</p>
+            </div>
+    </section>
+
+    <video playsinline controls muted loop>
+        <source src="https://www.youtube.com/watch?v=NvhJFxz6Z2o" type="video/mp4">
+      </video>
+
+
+    <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 4000);    
+        }
+        </script>
+
+    
+</body>
+</html>
