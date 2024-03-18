@@ -1,25 +1,23 @@
 body{
-    background-image:url(street3.jpg);
-    background-size:cover;
-    background-position:center;
-    background-repeat: no-repeat;
-    color: rgb(242, 238, 244);
+
+    /* background-image: url("feedback3.jpeg"); */
+    z-index:auto;
+    color:rgb(175, 205, 76);
+    background: rgb(132, 130, 130);
+    margin:0px;
 }
 
-.container{
-    display: flex;
-    margin:0px 0px 0px 550px;
-}
-table{
-    font-size: 30px;
-}
-
-.option{
+ section{
+    display:flex;
+    align-items: center;
+    margin-left: 500px;
     font-size: 25px;
-}
+    margin-top:10px;
+    width: 500px;
+    background: rgb(1, 24, 32);
+    box-shadow: rgb(91, 97, 91) 2px 0px 322px 23px, black 22px 32px 222px 322px ;
 
-h1{
-    font-size: 35px;
+    /* margin-left: 600px; */
 }
 
 footer{
@@ -28,17 +26,16 @@ footer{
     border-top: #cdcaca 2px solid ;
   }
   
-  .container1,.footer-content{
+  .footer-content p{
     margin: 05px 0px 5px 0px;
     background: #1b1b21;
-    align-items: center;
-    margin: 0px 0px 20px 300px ;
+    /* align-items: center; */
+    margin: 0px 0px 30px 600px ;
   }
   
   .contact ,h222 {
     display: flex;
     font-size: 30px;
-    text-decoration: dotted rgb(246, 245, 245);
     margin-left: 30px;
     background: #1b1b21;
   }

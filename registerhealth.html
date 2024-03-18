@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eye Checkup Registration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 20px auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+
+        footer{
+  background: #aaaaad;
+  margin-top: 30px;
+  border-top: #cdcaca 2px solid ;
+}
+
+.footer-content p{
+  margin: 05px 0px 5px 0px;
+  background: #aaaaad;
+  align-items: center;
+  margin: 0px 0px 20px 600px ;
+}
+
+.contact ,h222 {
+  display: flex;
+  font-size: 30px;
+  text-decoration: dotted rgb(246, 245, 245);
+  margin: 20px 0px 0px 30px;
+  background: #aaaaad;
+}
+
+.help{
+  display: flex;
+  margin-left: 30px;
+  background: #aaaaad;
+  gap: 10px;
+}
+
+.help1{
+  display: flex;
+  margin-left: 30px;
+  background: #aaaaad;
+  height: 60px;
+  gap: 10px;
+  
+}
+
+.help2{
+  display: flex;
+  margin-left: 30px;
+  background: #aaaaad;
+  height: 30px;
+  gap: 10px;
+  
+}
+
+.img111{
+  width: 20px;
+  height: 20px;
+  padding: 15px 4px 0px 3px ;
+}
+
+.img112{
+  width: 20px;
+  height: 20px;
+  padding: 15px 4px 0px 3px ;
+}
+.help ,.phone1{
+  padding: 0px 4px 0px 3px ;
+}
+.container p{
+    margin: 0px 0px 0px 20px ;
+}
+
+.container h2{
+    margin: 0px 0px 10px 20px ;
+}
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Eye Checkup Registration</h1>
+    </header>
+
+    <section>
+        <h2>Why Regular Eye Checkups Are Important</h2>
+        <p>Regular eye checkups are crucial for maintaining good vision and preventing potential eye problems. Especially for seniors, eye health is a key aspect of overall well-being. Detecting and addressing issues early can significantly improve the quality of life.</p>
+    </section>
+
+    <section>
+        <h2>What to Expect During a Senior Eye Checkup</h2>
+        <p>A comprehensive eye examination for seniors may include:</p>
+        <ul>
+            <li>Visual acuity test</li>
+            <li>Refraction assessment for glasses prescription</li>
+            <li>Eye pressure measurement for glaucoma screening</li>
+            <li>Examination of the retina and optic nerve</li>
+            <li>Cataract assessment</li>
+        </ul>
+        <p>Your eye care professional will guide you through each step, ensuring a thorough examination tailored to your needs.</p>
+    </section>
+
+    <section>
+        <h2>Registration Form</h2>
+        <p>Complete the registration form below to schedule your eye checkup for senior citizens. Please provide accurate information to help us better understand your needs and provide the best possible care.</p>
+        
+        <div class="Form">
+        <form id="registrationForm">
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" required>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required>
+
+            <label for="contactNumber">Contact Number:</label>
+            <input type="tel" id="contactNumber" name="contactNumber" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+           
+            <button type="button" onclick="submitForm()">Submit</button>
+        </form>
+    </div>
+    </section>
+
+    <section>
+        <h2>Recommended Vision Ranges and Eye Drops</h2>
+        <p>During the eye checkup, your eye care professional may assess your vision range (e.g., 20/20) and recommend specific eye drops based on your needs. These recommendations are personalized to address common issues associated with aging eyes.</p>
+    </section>
+
+    <footer class="footer" id="contact">
+        <h222 class="contact" id="help">Contact</h222>
+      
+        <div class="help">
+         <div class="location"><img class="img111" src="placeholder.png" alt="Location"></div>
+         <div class="location1"><p>Indore Institute Of Science And Technology</p>
+        </div>
+      </div>
+ 
+       <div class="help2">
+         <div><img class="img112" src="viber.png" alt="Contact"></div>
+           <div class="phone1"><p>9522303045</p></div>
+       </div>
+ 
+       <div class="help1">
+           <div class="gmail"><img class="img112" src="gmail.png" alt="Gmail"></div>
+           <div class="gmail"><p>Dynoorg@gmail.com</p></div>
+       </div>
+ 
+       <div class="container1">
+         <div class="footer-content">
+             <p>© 2024 Dyno Rural Development. All rights reserved.</p>
+        </div>
+   </div>
+ </footer>
+
+    <script>
+        function submitForm() {
+            
+            alert("Form submitted successfully!");
+        }
+    </script>
+
+</body>
+
+</html>
