@@ -367,7 +367,8 @@
         color: rgb(214, 212, 195);
         text-align: center;
        text-decoration: underline rgb(214, 212, 195) ;
-        padding-top: 10px;
+        padding-top: 0px;
+        margin-top: -30px;
         }
  
         .photo h4{
@@ -426,7 +427,8 @@
         .container31{
          display: flex;
          margin-top: 20px;
-         margin-left: 100px;
+         margin-left: 200px;
+         margin-top: 30px;
         }
  
         .container3, .gallery1{

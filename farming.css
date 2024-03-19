@@ -49,7 +49,7 @@
     
     .about{
         background: #ded8d8;
-        margin:-18px 0px 0px 5px
+        margin:-18px 0px 0px 25px;
     }
     
     .Methods{
@@ -147,6 +147,9 @@ ul,li{
     width:1000px;
     height: 700px;
 }
+.methods{
+    margin: 0 auto;
+}
 .problem1 h2{
     display: flex;
     margin: 10px 0px 0px 605px;
@@ -195,25 +198,20 @@ ul,li{
     font-size: 30px;
 }
 
-
-
-
-
-
-
-
-
-
-
+.image-ai{
+    display: flex;
+    width: 1490px;
+    height:700px;
+    margin-left: 50px;
+}
 
 footer{
     background: #6b6b71;
-    margin-top: 200px;
+    margin-top: -10px;
     border-top: #8383b1 2px solid ;
   }
   
   .footer-content{
-    margin: 05px 0px 5px 0px;
     background: #6b6b71;
     align-items: center;
     padding:0px 0px 20px 0px;
