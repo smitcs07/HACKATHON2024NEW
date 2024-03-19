@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Road-construction</title>
+    <link rel="stylesheet" href="Road.css">
+    <script src="Road.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo"><img src="logo.png"></div>
+            <div class="Heading">
+                <h1>Dyno Rural development</h1>
+            </div>
+            <div class="element">
+                <ul>
+                    <li class="menu1"><a href="#home">Home</a></li>
+                    <li class="menu1"><a href="#about">About</a></liX>
+                    <li class="menu1"><a href="#services">Services</a></li>
+                    <li class="menu1"><a href="#help">Help</a></li>
+                    <li class="menu1"><a href="#contact">Contact</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="prov">
+            <h4>Paving the way to the future ....</h4>
+        </div>
+    </header>
+
+    <section class="sect1" id="home">
+
+        <div class="w3-content w3-section" style="max-width:500px">
+
+          <div class="image1">
+            <img class="" src=".jpg" style="width:290%">
+         </div>
+         <div class="image2">
+            <img class="mySlides w3-animate-fading" src="9217126.jpg" style="width:290%">
+         </div>
+         <div class="image3">
+            <img class="mySlides w3-animate-fading" src="9217124.jpg" style="width:290%">
+         </div>
+            <!-- <img class="mySlides w3-anima te-fading" src="img_rr_04.jpg" style="width:100%"> -->
+          </div>
+
+    </section>
+
+    <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 4000);    
+        }
+        </script>
