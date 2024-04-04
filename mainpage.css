@@ -292,10 +292,14 @@
         }
         .slideshow-container {
           max-width: 1550px;
+          /* flex-direction: row; 
+          align-items: center; 
+          justify-content: center;
+           flex-wrap:wrap; */
           width:1450px;
           height:150px;
           /* position: relative; */
-          margin: 10px 0px 0px 0px;
+          /* margin: 10px 0px 0px 0px; */
         }
         
         /* Caption text */
